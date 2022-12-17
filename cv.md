@@ -18,3 +18,4 @@ I want to always keep up with the times in this rapidly developing world. I like
     - Git;
 * Development Tools:
     - Adobe Photoshop, Figma, Visual Studio Code;
+    
