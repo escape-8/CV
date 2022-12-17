@@ -18,4 +18,15 @@ I want to always keep up with the times in this rapidly developing world. I like
     - Git;
 * Development Tools:
     - Adobe Photoshop, Figma, Visual Studio Code;
-    
+
+## Code Example
+```
+const assert = require("chai").assert;
+
+describe("Multiply", () => {
+  it("fixed tests", () => {
+    assert.strictEqual(multiply(1,1), 1);
+    assert.strictEqual(multiply(2,1), 2);  
+  });
+});
+```    
