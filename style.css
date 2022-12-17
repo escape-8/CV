@@ -26,3 +26,27 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
+
+.nav-elem {
+    font-size: 17px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    list-style: none;
+
+    padding: 0px 20px;
+    
+
+}
+
+.link-elem {
+    text-decoration: none;
+    color: #000000
+
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
