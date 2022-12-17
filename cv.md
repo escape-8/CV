@@ -38,4 +38,4 @@ describe("Multiply", () => {
     - [Code Basics: CSS](https://code-basics.com/ru/languages/css);
 
 # Language
-* A2 (B2 in study)
+* A2 (B1 in study)
