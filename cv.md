@@ -29,4 +29,11 @@ describe("Multiply", () => {
     assert.strictEqual(multiply(2,1), 2);  
   });
 });
-```    
+```
+# Education
+* University
+    - Volga State University of Technology;
+* Courses
+    - [Code Basics: HTML](https://code-basics.com/ru/languages/html);
+    - [Code Basics: CSS](https://code-basics.com/ru/languages/css);
+    
