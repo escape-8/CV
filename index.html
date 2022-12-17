@@ -32,6 +32,9 @@
     </header>
     <main class="main">
         <div class="container">
+            <section class="avatar" id="intro">
+                <img src="" alt="avatar">
+            </section>
             <section class="section" id="intro">
                 <h1 class="section-title">Mikhail Tsepelev</h1>
             </section>
@@ -49,7 +52,7 @@
                     <p>I want to always keep up with the times in this rapidly developing world. I like to create something new and learn the essence of things. 
                     Modern development meets all the stated requirements and therefore I want to achieve a high level in it. This is the right way.</p>
             <section class="section" id="skills"></section>
-                <h2>Skills</h2>
+                <h2 class="section-title">Skills</h2>
                 <ul>
                     <li>Web:</li>
                         <ul type="circle">
@@ -69,21 +72,21 @@
                         </ul>
                 </ul>
             <section class="section" id="code exmple"></section>
-                <h2>Code Example</h2>
-                <code>
-                    <pre>
-                        const assert = require("chai").assert;
+                <h2 class="section-title">Code Example</h2>
+<pre class="code-elem">
+<code>
+    const assert = require("chai").assert;
 
-                        describe("Multiply", () => {
-                            it("fixed tests", () => {
-                                assert.strictEqual(multiply(1,1), 1);
-                                assert.strictEqual(multiply(2,1), 2);  
-                                });
-                            });
-                    </pre>
-                </code>
+    describe("Multiply", () => {
+        it("fixed tests", () => {
+            assert.strictEqual(multiply(1,1), 1);
+            assert.strictEqual(multiply(2,1), 2);  
+            });
+        });
+    </code>
+</pre>
             <section class="section" id="education"></section>
-                <h2>Education</h2>
+                <h2 class="section-title">Education</h2>
                 <ul>
                     <li>University</li>
                         <ul type="circle">
@@ -91,19 +94,23 @@
                         </ul>
                     <li>Courses</li>
                         <ul type="circle">
-                            <li><a href="https://code-basics.com/ru/languages/html">Code Basics HTML;</a></li>
-                            <li><a href="https://code-basics.com/ru/languages/css">Code Basics CSS;</a></li>
+                            <li><a href="https://code-basics.com/ru/languages/html" class="link-elem">Code Basics HTML;</a></li>
+                            <li><a href="https://code-basics.com/ru/languages/css" class="link-elem">Code Basics CSS;</a></li>
                         </ul>
                 </ul>
             <section class="section" id="language"></section>
-                <h2>Language</h2>
+                <h2 class="section-title">Language</h2>
                 <ul>
                     <li>A2 (B1 in study);</li>
                 </ul>
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container">
+            <div><a href="https://github.com/escape-8" class="git-profile link-elem">Mikhail Tsepelev</a>2022
+            </div>
+        <a href="https://rs.school/js/" class="rs-s"></a>
+        </div>
     </footer>
 </body>
 </html>
