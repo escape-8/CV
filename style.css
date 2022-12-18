@@ -56,10 +56,19 @@ body {
     padding: 25px 0px 0px 100px;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+}
 
 .link-elem {
     text-decoration: none;
     color: #000000
+}
+
+.link-elem:hover {
+    background-color: #fdff7e;
+    transition: 0.7s;
 }
 
 html {
@@ -89,3 +98,6 @@ html {
     width: 60%;
 }
 
+.section-title {
+    background-color:aliceblue;
+}
