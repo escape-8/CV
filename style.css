@@ -35,24 +35,31 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
-  
+
 .nav-elem {
     font-size: 17px;
 
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
 
     list-style: none;
 
     padding: 0px 20px; 
-
 }
+
+.main-title {
+    display:flex;
+}
+
+.title-h1 {
+    padding: 25px 0px 0px 100px;
+}
+
 
 .link-elem {
     text-decoration: none;
     color: #000000
-
 }
 
 html {
@@ -62,9 +69,6 @@ html {
 
 .code-elem {
     background-color:#f1f1f1;
-    width: 27%;
-    padding: 0px;
-    margin: 0px;
 }
 
 .rss-logo {
@@ -76,9 +80,12 @@ html {
 .avatar {
     width: 150px;
     height: 150px;
-    object-fit: cover;
     border: 3px solid black;
     border-radius: 50%;
     margin: 25px 0px 5px 0px;
+}
+
+.container {
+    width: 60%;
 }
 
