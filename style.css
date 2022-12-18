@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
 
     font-family: 'Poppins', sans-serif;
+    line-height: 1.7em;
 }
 
 * {
@@ -105,4 +106,9 @@ html {
 
 .section-title {
     background-color:aliceblue;
+}
+
+.circle {
+    list-style-type:circle;
+    margin: 0 0 0 40px;
 }
