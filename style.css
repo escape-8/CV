@@ -89,6 +89,7 @@ html {
 .rss-logo {
     width: 120px;
     height: 45px;
+    color: transparent;
     background-image: url("./assets/img/rss_logo.svg");
 }
 
