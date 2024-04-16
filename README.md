@@ -1,5 +1,5 @@
-# rsschool-cv
+# Curriculum Vitae (CV)
 
-https://escape-8.github.io/rsschool-cv/cv
+https://escape-8.github.io/CV/cv
 
-https://escape-8.github.io/rsschool-cv/
+https://escape-8.github.io/CV/
